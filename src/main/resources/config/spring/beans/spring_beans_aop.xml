@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--<aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <bean id="quartzLog" class="com.forsrc.aop.LogTracing"/>
+
+    <aop:config proxy-target-class="true">
+        <aop:aspect id="aspect1" ref="quartzLog">
+            <aop:pointcut id="quartzLogService" expression="execution(* com.forsrc.quartz.*.*(..))"/>
+            <aop:before pointcut-ref="quartzLogService" method="doBefore"/>
+            <aop:after pointcut-ref="quartzLogService" method="doAfter"/>
+            <aop:around pointcut-ref="quartzLogService" method="doAround"/>
+        </aop:aspect>
+    </aop:config>
+
+    <bean id="log" class="com.forsrc.aop.LogTracing"/>
+    <aop:config proxy-target-class="true">
+        <aop:aspect id="aspect3" ref="log">
+            <aop:pointcut id="logService" expression="
+                execution(* com.forsrc.springmvc..*.*(..))
+             or execution(* com.forsrc.cxf..*.*(..))
+            "/>
+            <aop:before pointcut-ref="logService" method="doBefore"/>
+            <aop:after pointcut-ref="logService" method="doAfter"/>
+            <aop:around pointcut-ref="logService" method="doAround"/>
+        </aop:aspect>
+    </aop:config>-->
+
+</beans>
