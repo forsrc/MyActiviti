@@ -97,7 +97,7 @@
         <!--         <property name="configLocation" value="classpath:hibernate.cfg.xml">  -->
         <property name="mappingLocations">
             <list>
-                <value>classpath*:/com/forsrc/pojo/*.hbm.xml</value>
+                <!--<value>classpath*:/com/forsrc/pojo/*.hbm.xml</value>-->
             </list>
         </property>
 
@@ -108,7 +108,7 @@
                 <prop key="hibernate.connection.autocommit">true</prop>
                 <prop key="hibernate.dialect">${dialect}</prop>
                 <prop key="hibernate.show_sql">true</prop>
-                <prop key="hibernate.hbm2ddl.auto">create</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
                 <prop key="hibernate.format_sql">true</prop>
                 <prop key="hibernate.jdbc.batch_size">20</prop>
                 <prop key="query.substitutions">true 1, false 0</prop>
@@ -122,10 +122,10 @@
                 <prop key="hibernate.cache.use_structured_entries">true</prop>
                 <prop key="hibernate.generate_statistics">false</prop>
 
-                <prop key="hibernate.search.default.directory_provider">
+                <!--<prop key="hibernate.search.default.directory_provider">
                     org.hibernate.search.store.impl.FSDirectoryProvider
                 </prop>
-                <prop key="hibernate.search.default.indexBase">myactiviti.index/hibernate.search</prop>
+                <prop key="hibernate.search.default.indexBase">myactiviti.index/hibernate.search</prop>-->
 
                 <!--<prop key="hibernate.current_session_context_class">thread</prop>
                 <prop key="hibernate.transaction.factory_class">org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory</prop>-->
@@ -212,8 +212,8 @@
 
     <jpa:repositories
             base-package="com.forsrc"
-                      transaction-manager-ref="transactionManager"
-                      entity-manager-factory-ref="entityManagerFactory"/>
+            transaction-manager-ref="transactionManager"
+            entity-manager-factory-ref="entityManagerFactory"/>
 
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
         <property name="entityManagerFactory" ref="entityManagerFactory"/>

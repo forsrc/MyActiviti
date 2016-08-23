@@ -2,474 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="906ca36e-ea2e-4701-aa1e-3ef260abea20" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/properties/dbcp.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/properties/engine.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/properties/hessian.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/properties/quartz.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/properties/resource.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/properties/ui.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/properties/validatemessages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/activiti/spring_activiti.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/activiti/spring_activiti_config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/activiti/spring_activiti_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/beans/spring_beans_aop.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/beans/spring_beans_common.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/beans/spring_beans_freemarker.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/beans/spring_beans_pojo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/beans/spring_beans_utils.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/ehcache/spring_ehcache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/hibernate/spring_hibernate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/hibernate/spring_hibernate_aop.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/hibernate/spring_hibernate_transaction.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/config/spring/hibernate/spring_sessionfactory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/ehcache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/freemarker.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/import.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/jta.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MyActiviti/transactions.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/allmobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/android.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/alfresco.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-c.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-header.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-input-c-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-input-l-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-input-r-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-nav-hover.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-number-active.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-number.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-scroll-b-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-scroll-b.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-scroll-t-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-scroll-t.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-scroll.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-sidebar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-submit.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bg-toolbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bullet-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/bullet-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bg-left-active.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bg-left-down.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bg-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bg-right-active.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bg-right-down.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bg-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bg-small-left-focus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bg-small-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bg-small-right-focus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bg-small-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-bpmn-48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/button-table-48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/content-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/create-time-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/database-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/database-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/database-history-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/database-identity-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/database-repository-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/database-runtime-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/deployment-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/deployment-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/duedate-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/execute.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/explorer-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/google.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/group-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/group-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/group-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/group-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/ico-8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/imap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/job-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/job-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/magnifier-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/mm-manage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/mm-process.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/mm-reports.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/mm-tasks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/page_white_acrobat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/page_white_get.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/page_white_world.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/priority-high-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/priority-low-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/priority-medium-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/process-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/process-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/report-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/report-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/repository-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/separator-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/skype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/task-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/task-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/task-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/task-finished-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/tick.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/time.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/user-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/user-22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/user-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/user-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/user_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/version-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/img/workflow-console-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/layouts/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/lt7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/themes/activiti/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/WEB-INF/deploy/org.activiti.explorer.CustomWidgetset/rpcPolicyManifest/manifest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/WEB-INF/deploy/org.activiti.explorer.CustomWidgetset/symbolMaps/51F0F75F652C07C3D4A94041764E0BDF.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/WEB-INF/deploy/org.activiti.explorer.CustomWidgetset/symbolMaps/7DCE794BC875B2EB158C471AAE605A9C.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/WEB-INF/deploy/org.activiti.explorer.CustomWidgetset/symbolMaps/7FC8F9BA1880B9FD4242AAA23BDE00EC.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/WEB-INF/deploy/org.activiti.explorer.CustomWidgetset/symbolMaps/B30394F53E23EE027289EEE987984B57.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/WEB-INF/deploy/org.activiti.explorer.CustomWidgetset/symbolMaps/BAA63810C9D1D3E7DD6472EDBD8A2016.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/WEB-INF/deploy/org.activiti.explorer.CustomWidgetset/symbolMaps/EF39561F1C79BACDED6EFD7217A4D4E3.symbolMap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/0A9476898799A150D840F0B1C3672921.cache.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/396F806CD63ABD414BFBB9D57429F05B.cache.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/51F0F75F652C07C3D4A94041764E0BDF.cache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/7DCE794BC875B2EB158C471AAE605A9C.cache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/7FC8F9BA1880B9FD4242AAA23BDE00EC.cache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/B30394F53E23EE027289EEE987984B57.cache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/BAA63810C9D1D3E7DD6472EDBD8A2016.cache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/DE709C1CAB0F65BCC5BEF11EDA73A925.cache.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/DF7764EEC1903CD03C9545B354D8D8E4.cache.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/E44767377485D18D6B6864F65BA8EF73.cache.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/EDC7827FEEA59EE44AD790B1C6430C45.cache.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/EF39561F1C79BACDED6EFD7217A4D4E3.cache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/clear.cache.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/dcharts/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/hosted.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/ie6pngfix/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/org.activiti.explorer.CustomWidgetset.nocache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/properties/dbcp.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/properties/engine.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/properties/hessian.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/properties/quartz.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/properties/resource.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/properties/ui.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/properties/validatemessages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/activiti/spring_activiti.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/activiti/spring_activiti_config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/activiti/spring_activiti_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/beans/spring_beans_aop.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/beans/spring_beans_common.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/beans/spring_beans_freemarker.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/beans/spring_beans_pojo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/beans/spring_beans_utils.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/ehcache/spring_ehcache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/hibernate/spring_hibernate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/hibernate/spring_hibernate_aop.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/hibernate/spring_hibernate_transaction.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/config/spring/hibernate/spring_sessionfactory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/ehcache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/freemarker.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/import.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/jta.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/classes/transactions.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/breadcrumbs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/checker-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/blue/message_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/business_rule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/error_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/error_throw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/manual.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/message_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/message_throw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/receive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/script.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/service.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/signal_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/signal_throw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/images/deployer/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/ActivitiRest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/ActivityImpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/Color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/LineBreakMeasurer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/Polyline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/ProcessDiagramCanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/ProcessDiagramGenerator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/jquery/jquery.asyncqueue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/jquery/jquery.progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/jstools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/raphael.2.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/raphael.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/raphael_uncompressed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/js/textlayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/diagram-viewer/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/app-cfg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-assignment-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-condition-expression-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-custom-controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-default-controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-event-listeners-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-execution-listeners-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-fields-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-form-properties-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-in-parameters-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-message-definitions-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-message-scope-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-multiinstance-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-out-parameters-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-sequenceflow-order-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-signal-definitions-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-signal-scope-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties-task-listeners-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/assignment-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/assignment-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/assignment-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/boolean-property-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/condition-expression-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/condition-expression-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/condition-expression-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/default-value-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/event-listeners-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/event-listeners-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/event-listeners-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/execution-listeners-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/execution-listeners-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/execution-listeners-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/feedback-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/fields-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/fields-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/fields-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/form-properties-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/form-properties-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/form-properties-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/in-parameters-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/in-parameters-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/in-parameters-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/message-definitions-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/message-definitions-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/message-definitions-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/message-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/multiinstance-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/out-parameters-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/out-parameters-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/out-parameters-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/sequenceflow-order-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/sequenceflow-order-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/sequenceflow-order-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/signal-definitions-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/signal-definitions-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/signal-definitions-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/signal-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/string-property-write-mode-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/subprocess-reference-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/subprocess-reference-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/subprocess-reference-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/task-listeners-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/task-listeners-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/task-listeners-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/text-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/properties/text-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/toolbar-custom-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/toolbar-default-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/toolbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/configuration/url-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/css/style-common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/css/style-editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor-utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor/css/editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor/i18n/translation_de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor/i18n/translation_en_us.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor/i18n/translation_signavio_de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor/i18n/translation_signavio_en_us.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor/oryx.debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/editor/oryx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/eventbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/fonts/activiti-admin-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/fonts/activiti-admin-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/fonts/activiti-admin-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/fonts/activiti-admin-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/header-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/i18n/en.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/bpmn-error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/bpmn-warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/datadefinition.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/logo-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/nw-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/se-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/shapemenu_highlight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/images/wrench.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-dragdrop.min-1.0.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-resource_1.2.13/angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-route_1.2.13/angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-route_1.2.13/angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-translate-loader-static-files/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-translate-storage-cookie/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-translate_2.4.2/angular-translate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular_1.2.13/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/angular_1.2.13/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/CHANGES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/jquery-ui-1.10.3.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/jquery.autogrow-textarea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/jquery_1.11.0/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/jquery_1.11.0/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/jquery_1.11.0/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/json3_3.2.6/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/json3_3.2.6/lib/json3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/json3_3.2.6/lib/json3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/momentjs_2.5.1/momentjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/mousetrap-1.4.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/ng-grid-2.0.7-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/ng-grid-2.0.7.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/path_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/prototype-1.5.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/libs/ui-utils.min-0.0.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/partials/root-stencil-item-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/partials/stencil-item-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/plugins.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/popups/icon-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/popups/save-model.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/popups/select-shape.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/popups/unsaved-changes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/select-shape-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencil-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/editor-app/toolbar-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MyActiviti/modeler.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful_config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/i18n/message_en_US.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/i18n/message_zh_CN.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_common.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_common.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_transaction.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_transaction.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ehcache.xml" afterPath="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="MyActiviti.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -527,48 +73,48 @@
       <file leaf-file-name="spring_hibernate.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="202" column="69" selection-start-line="202" selection-start-column="69" selection-end-line="202" selection-end-column="69" />
+            <state relative-caret-position="445">
+              <caret line="205" column="62" selection-start-line="205" selection-start-column="62" selection-end-line="205" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="-145">
+              <caret line="193" column="8" selection-start-line="193" selection-start-column="4" selection-end-line="200" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <file leaf-file-name="spring_restful_config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful_config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="1107">
+              <caret line="102" column="20" selection-start-line="102" selection-start-column="16" selection-end-line="106" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring_activiti_demo.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_demo.xml">
+      <file leaf-file-name="spring_restful.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
-              <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+            <state relative-caret-position="102">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring_activiti.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -577,48 +123,48 @@
       <file leaf-file-name="spring_activiti_config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="42" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="42" />
+            <state relative-caret-position="34">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KQueueArrayWrapper.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
+      <file leaf-file-name="spring_hibernate_transaction.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_transaction.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2142">
-              <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+            <state relative-caret-position="187">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbcp.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/dbcp.properties">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="180" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="180" />
+            <state relative-caret-position="223">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="import.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
+      <file leaf-file-name="ehcache.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="-1586">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1e723b2-f74c-4c19-8c1f-bc9a117c34b5/console.sql">
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="104" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -638,21 +184,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/activiti/explorer/servlet/WebConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/activiti/rest/servlet/WebConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/activiti/rest/servlet/WebConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_aop.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_utils.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_common.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config/spring/ehcache/spring_ehcache.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config/properties/dbcp.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b1e723b2-f74c-4c19-8c1f-bc9a117c34b5/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_transaction.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_common.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful_config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -680,8 +230,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
     <option name="y" value="23" />
-    <option name="width" value="1366" />
+    <option name="width" value="1392" />
     <option name="height" value="740" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -717,34 +268,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -761,12 +288,15 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/i18n" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/src/main/resources/config/spring/springmvc" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/config" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat">
@@ -1146,7 +676,7 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.261" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.261" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.7">
       <option name="COMMON_VM_ARGUMENTS" value="-XX:PermSize=256M -XX:MaxPermSize=512M -Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -1158,7 +688,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_MyActiviti" />
-        <option name="JNDI_PORT" value="3099" />
+        <option name="JNDI_PORT" value="1999" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1241,15 +771,16 @@
       <option name="presentableId" value="Default" />
       <updated>1471512195378</updated>
       <workItem from="1471512200292" duration="6226000" />
-      <workItem from="1471523875605" duration="56000" />
+      <workItem from="1471523875605" duration="306000" />
+      <workItem from="1471916500783" duration="4785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6282000" />
+    <option name="totallyTimeSpent" value="11317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="740" extended-state="6" />
+    <frame x="4" y="23" width="1392" height="740" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1261,31 +792,31 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ConsoleMavenPlugin" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08761329" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.033333335" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6523077" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47993827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35339507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26359516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23185185" sideWeight="0.49041095" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32401812" sideWeight="0.509589" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35430464" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1300,6 +831,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_demo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1819">
+          <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/dbcp.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="180" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="180" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1e723b2-f74c-4c19-8c1f-bc9a117c34b5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1391,14 +978,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/restful/spring_restful_config.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="4" selection-end-line="36" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/servlet/WebConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -1420,50 +999,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_aop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="4" selection-end-line="33" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_utils.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="83" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_common.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="83" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/ehcache/spring_ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_transaction.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_aop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1476,42 +1015,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2142">
           <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/dbcp.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="180" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="180" />
           <folding />
         </state>
       </provider>
@@ -1532,25 +1039,194 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/quartz.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/dbcp.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/quartz-2.2.2.jar!/org/quartz/core/QuartzSchedulerThread.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="94">
           <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_sessionfactory.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/ehcache/spring_ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jta.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/transactions.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/engine.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_common.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1586">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful_config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="102" column="20" selection-start-line="102" selection-start-column="16" selection-end-line="106" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="202" column="69" selection-start-line="202" selection-start-column="69" selection-end-line="202" selection-end-column="69" />
+        <state relative-caret-position="445">
+          <caret line="205" column="62" selection-start-line="205" selection-start-column="62" selection-end-line="205" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="17" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="193" column="8" selection-start-line="193" selection-start-column="4" selection-end-line="200" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1565,7 +1241,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28234085" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1578,7 +1254,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28234085" />
               </list>
             </option>
           </splitter-proportions>
@@ -1615,6 +1291,7 @@
             <option name="proportions">
               <list>
                 <option value="0.28234085" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

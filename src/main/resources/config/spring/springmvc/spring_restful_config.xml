@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-4.0.xsd
+
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <context:component-scan base-package="com.forsrc.springmvc.*.*.controller"/>
+    <<!--context:component-scan base-package="com.forsrc.lucene"/>-->
+
+
+    <!--<bean class="com.forsrc.interceptor.BaseExceptionInterceptor"></bean>-->
+
+    <!--<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping"/>-->
+
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>
+
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+        <property name="messageConverters">
+            <list>
+                <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                    <property name="supportedMediaTypes">
+                        <list>
+                            <value>text/json</value>
+                            <value>application/json</value>
+                        </list>
+                    </property>
+                </bean>
+                <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+                    <property name="objectMapper">
+                        <bean class="com.fasterxml.jackson.databind.ObjectMapper">
+                            <property name="dateFormat">
+                                <bean class="java.text.SimpleDateFormat">
+                                    <constructor-arg type="java.lang.String" value="yyyy-MM-dd HH:mm:ss"/>
+                                </bean>
+                            </property>
+                        </bean>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="org.springframework.http.converter.xml.MarshallingHttpMessageConverter">
+        <constructor-arg>
+            <bean class="org.springframework.oxm.xstream.XStreamMarshaller">
+                <property name="streamDriver">
+                    <bean class="com.thoughtworks.xstream.io.xml.StaxDriver"/>
+                </property>
+            </bean>
+        </constructor-arg>
+        <property name="supportedMediaTypes" value="application/xml"></property>
+    </bean>
+
+
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+        <property name="order" value="0"/>
+        <!--<property name="ignoreAcceptHeader" value="true" />
+        <property name="defaultContentType" value="text/html" />
+        <property name="mediaTypes">
+          <map>
+              <entry key="json" value="application/json"/>
+              <entry key="xml" value="application/xml"/>
+              <entry key="pdf" value="application/pdf"/>
+          </map>
+      </property>-->
+        <property name="contentNegotiationManager" ref="contentNegotiationManager"/>
+        <property name="defaultViews">
+            <list>
+                <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView">
+                    <property name="extractValueFromSingleKeyModel" value="true"/>
+                </bean>
+                <bean class="org.springframework.web.servlet.view.xml.MarshallingView">
+                    <property name="marshaller">
+                        <bean class="org.springframework.oxm.xstream.XStreamMarshaller">
+                            <property name="autodetectAnnotations" value="false"/>
+                            <property name="streamDriver">
+                                <bean class="com.thoughtworks.xstream.io.xml.StaxDriver"/>
+                            </property>
+                        </bean>
+                    </property>
+                </bean>
+
+
+                <!--<bean class="org.springframework.web.servlet.view.xml.MarshallingView">
+                    <constructor-arg>
+                        <bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+                            &lt;!&ndash;<property name="classesToBeBound">
+                                <list>
+                                    <value>com.forsrc.pojo.MaintainItem</value>
+                                </list>
+                            </property>&ndash;&gt;
+                            <property name="packagesToScan" value="com.forsrc.pojo"></property>
+                        </bean>
+                    </constructor-arg>
+                </bean>-->
+                <!--  PDF view -->
+                <!--<bean class="com.forsrc.springmvc.restful.user.view.PdfView">
+
+                </bean>
+                <bean class="com.forsrc.springmvc.restful.user.view.WordView">
+                </bean>-->
+            </list>
+        </property>
+
+        <property name="viewResolvers">
+            <list>
+                <bean class="org.springframework.web.servlet.view.BeanNameViewResolver"/>
+                <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+                    <!--
+                            <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+                    -->
+                    <property name="prefix" value=""/>
+                    <property name="suffix" value=".html"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+
+    <bean id="contentNegotiationManager" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+        <property name="ignoreUnknownPathExtensions" value="true"/>
+        <property name="useJaf" value="true"/>
+        <property name="favorPathExtension" value="true"/>
+        <property name="favorParameter" value="true"/>
+        <property name="parameterName" value="format"/>
+        <property name="ignoreAcceptHeader" value="true"/>
+
+        <property name="mediaTypes">
+            <map>
+                <entry key="json" value="application/json"/>
+                <entry key="xml" value="application/xml"/>
+                <entry key="pdf" value="application/pdf"/>
+                <entry key="html" value="text/html"/>
+                <entry key="xsl" value="application/vnd.ms-excel"/>
+                <entry key="ppt" value="application/vnd.ms-powerpoint"/>
+                <entry key="doc" value="application/msword"/>
+                <entry key="zip" value="application/zip"/>
+                <entry key="png" value="image/png"/>
+            </map>
+            <!--<value>
+                json=application/json
+                xml=application/xml
+                pdf=application/pdf
+                html=text/html
+                xsl=application/vnd.ms-excel
+                ppt=application/vnd.ms-powerpoint
+                doc=application/msword
+                zip=application/zip
+                png=image/png
+                *=*/*
+            </value>-->
+        </property>
+
+        <property name="defaultContentType" value="application/json"/>
+    </bean>
+
+    <mvc:interceptors>
+        <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+            <property name="paramName" value="language"/>
+        </bean>
+    </mvc:interceptors>
+
+
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+        <property name="cookieName" value="language"/>
+        <!--<property name="cookieMaxAge" value="3600"/>-->
+        <property name="defaultLocale" value="en_US"/>
+    </bean>
+
+
+    <!--<bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+        <property name="defaultLocale" value="en_US"/>
+    </bean>-->
+
+    <bean id="localeChangeInterceptor" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+        <property name="paramName" value="language"/>
+    </bean>
+
+    <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping">
+        <property name="interceptors">
+            <list>
+                <ref bean="localeChangeInterceptor"/>
+            </list>
+        </property>
+    </bean>
+
+    <mvc:annotation-driven conversion-service="conversionService"/>
+    <bean id="conversionService"
+          class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <!--<bean class="com.forsrc.utils.ConverterDate"></bean>
+                <bean class="com.forsrc.utils.ConverterTimestamp"></bean>-->
+            </set>
+        </property>
+    </bean>
+
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding">
+            <value>UTF-8</value>
+        </property>
+        <property name="maxUploadSize">
+            <value>104857600</value>
+        </property>
+        <property name="maxInMemorySize">
+            <value>4096</value>
+        </property>
+    </bean>
+
+
+</beans>
+
+

@@ -14,8 +14,8 @@
     http://www.springframework.org/schema/tx/spring-tx-4.2.xsd"
         >
     <aop:aspectj-autoproxy proxy-target-class="true"/>
-    <context:component-scan base-package="com.forsrc.springmvc"/>
-    <context:component-scan base-package="com.forsrc.base"/>
+    <!--<context:component-scan base-package="com.forsrc.springmvc"/>
+    <context:component-scan base-package="com.forsrc.base"/>-->
 
     <!--<aop:aspectj-autoproxy proxy-target-class="true"/>-->
 

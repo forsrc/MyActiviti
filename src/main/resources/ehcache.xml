@@ -12,7 +12,7 @@
 
     <!--<terracottaConfig url="192.168.1.100:9510,192.168.1.101:9510"/>-->
 
-    <diskStore path="java.io.tmpdir/restful"/>
+    <diskStore path="java.io.tmpdir/myactiviti"/>
     <!-- <diskStore path="E:/cachetmpdir" /> -->
 
     <defaultCache maxElementsInMemory="10240"
