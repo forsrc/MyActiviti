@@ -246,22 +246,6 @@
         <param-value>true</param-value>
     </context-param>
 
-
-    <servlet>
-        <servlet-name>activiti</servlet-name>
-        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        <init-param>
-            <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:/config/spring/activiti/spring_activiti.xml</param-value>
-        </init-param>
-        <load-on-startup>10</load-on-startup>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>activiti</servlet-name>
-        <url-pattern>/service/*</url-pattern>
-    </servlet-mapping>
-
     <!-- To load the Spring context -->
     <!--<listener>
         <listener-class>org.activiti.explorer.servlet.WebConfigurer</listener-class>
@@ -312,6 +296,8 @@
         <servlet-name>Vaadin Application Servlet</servlet-name>
         <url-pattern>/VAADIN/*</url-pattern>
     </servlet-mapping>
+
+
     <!-- activiti-explorer END -->
 
     <!-- activiti-rest START -->
@@ -319,6 +305,22 @@
         <listener-class>org.activiti.rest.servlet.WebConfigurer</listener-class>
     </listener>-->
     <!-- activiti-explorer END -->
+
+    <servlet>
+        <servlet-name>activiti</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:/config/spring/activiti/spring_activiti.xml</param-value>
+        </init-param>
+        <load-on-startup>10</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>activiti</servlet-name>
+        <url-pattern>/service/*</url-pattern>
+    </servlet-mapping>
+
 
 
 </web-app>

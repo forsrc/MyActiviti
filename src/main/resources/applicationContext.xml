@@ -18,6 +18,7 @@
     </bean>
 
     <context:component-scan base-package="com.forsrc"/>
+    <context:component-scan base-package="org.activiti"/>
 
     <!--<context:component-scan base-package="com.forsrc.springmvc"/>
     <context:component-scan base-package="com.forsrc.cxf"/>
@@ -31,7 +32,7 @@
     <import resource="config/spring/hibernate/spring_hibernate_aop.xml"/>
     <import resource="config/spring/beans/spring_beans_*.xml"/>
     <import resource="config/spring/ehcache/spring_ehcache.xml"/>
-    <!--<import resource="config/spring/activiti/spring_activiti.xml"/>-->
+    <import resource="config/spring/activiti/spring_activiti.xml"/>
     <!--<import resource="config/spring/hibernatesearch/spring_hibernate_search.xml"/>
     <import resource="config/spring/redis/spring_redis.xml"/>
     <import resource="config/spring/lucene/spring_lucene.xml"/>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:tns="http://www.activiti.org/test" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" expressionLanguage="http://www.w3.org/1999/XPath" id="m1465826199919" name="" targetNamespace="http://www.activiti.org/test" typeLanguage="http://www.w3.org/2001/XMLSchema">
+  <process id="id-demo-1" isClosed="false" isExecutable="true" name="name-demo-1" processType="Public">
+    <startEvent id="demo-1-start" name="StartEvent"/>
+    <userTask activiti:exclusive="true" id="demo-1-userTask-1" name="UserTask-1"/>
+    <userTask activiti:exclusive="true" id="demo-1-userTask-2" name="UserTask-2"/>
+    <endEvent id="demo-1-end" name="EndEvent"/>
+    <sequenceFlow id="_8" sourceRef="demo-1-start" targetRef="demo-1-userTask-1"/>
+    <sequenceFlow id="_9" sourceRef="demo-1-userTask-1" targetRef="demo-1-userTask-2"/>
+    <sequenceFlow id="_10" sourceRef="demo-1-userTask-2" targetRef="demo-1-end"/>
+  </process>
+  <bpmndi:BPMNDiagram documentation="background=#FFFFFF;count=1;horizontalcount=1;orientation=0;width=842.4;height=1195.2;imageableWidth=832.4;imageableHeight=1185.2;imageableX=5.0;imageableY=5.0" id="Diagram-_1" name="New Diagram">
+    <bpmndi:BPMNPlane bpmnElement="id-demo-1">
+      <bpmndi:BPMNShape bpmnElement="demo-1-start" id="Shape-demo-1-start">
+        <omgdc:Bounds height="32.0" width="32.0" x="10.0" y="40.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="demo-1-userTask-1" id="Shape-demo-1-userTask-1">
+        <omgdc:Bounds height="55.0" width="85.0" x="110.0" y="95.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="85.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="demo-1-userTask-2" id="Shape-demo-1-userTask-2">
+        <omgdc:Bounds height="55.0" width="85.0" x="275.0" y="125.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="85.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="demo-1-end" id="Shape-demo-1-end">
+        <omgdc:Bounds height="32.0" width="32.0" x="420.0" y="40.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="_8" id="BPMNEdge__8" sourceElement="_3" targetElement="_4">
+        <omgdi:waypoint x="42.0" y="56.0"/>
+        <omgdi:waypoint x="110.0" y="122.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_9" id="BPMNEdge__9" sourceElement="_4" targetElement="_6">
+        <omgdi:waypoint x="195.0" y="122.5"/>
+        <omgdi:waypoint x="275.0" y="152.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_10" id="BPMNEdge__10" sourceElement="_6" targetElement="_7">
+        <omgdi:waypoint x="360.0" y="152.5"/>
+        <omgdi:waypoint x="420.0" y="56.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

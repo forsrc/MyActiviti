@@ -8,6 +8,12 @@
         <property name="identityService" ref="identityService"/>
     </bean>
 
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" name="activitiUiPropertyPlaceholder">
+        <property name="location" value="classpath:/config/properties/ui.properties" />
+        <!-- Allow other PropertyPlaceholderConfigurer to run as well -->
+        <property name="ignoreUnresolvablePlaceholders" value="true"/>
+    </bean>
+
     <!-- This application context will be included in Alfresco as-is -->
 
     <!-- Global scoped beans -->
