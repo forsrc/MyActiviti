@@ -283,7 +283,7 @@
         <servlet-class>org.activiti.explorer.servlet.ExplorerApplicationServlet</servlet-class>
         <init-param>
             <param-name>widgetset</param-name>
-            <param-value>org.org.activiti.explorer.CustomWidgetset</param-value>
+            <param-value>org.activiti.explorer.CustomWidgetset</param-value>
         </init-param>
     </servlet>
 
