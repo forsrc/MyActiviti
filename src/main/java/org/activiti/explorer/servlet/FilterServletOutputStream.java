@@ -1,10 +1,11 @@
 package org.activiti.explorer.servlet;
 
-import javax.servlet.ServletOutputStream;
-import javax.servlet.WriteListener;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+
+import javax.servlet.ServletOutputStream;
+import javax.servlet.WriteListener;
 
 public class FilterServletOutputStream extends ServletOutputStream {
 

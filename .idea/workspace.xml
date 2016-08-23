@@ -2,467 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="906ca36e-ea2e-4701-aa1e-3ef260abea20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/FixSystemFailureProcess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/Helpdesk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/VacationRequest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/images/fozzie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/images/gonzo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/images/kermit.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/rest/images/fozzie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/rest/images/gonzo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/rest/images/kermit.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/CustomWidgetset.gwt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/model/test.model.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/model/test.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/DemoProcess.bpmn" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/FixSystemFailureProcess.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/Helpdesk.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/VacationRequest.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/createTimersProcess.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/oneTaskProcess.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/reports/employeeProductivity.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/reports/helpdeskFirstLineVsEscalated.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/reports/processInstanceOverview.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/reports/taskDurationForProcessDefinition.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/reviewSalesLead.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/simple-approval.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/explorer/demo/process/testProcess.bpmn20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/rest/demo/model/test.model.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/org/activiti/rest/demo/model/test.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/stencilset.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti/ui.properties.alfresco" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/FastInfoset-1.2.13.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/FastInfoset-1.2.13.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/IKAnalyzer2012_V5-5.2.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/IKAnalyzer2012_V5-5.2.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activation-1.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activation-1.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activeio-core-3.1.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activeio-core-3.1.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activemq-broker-5.12.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activemq-broker-5.12.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activemq-client-5.12.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activemq-client-5.12.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activemq-openwire-legacy-5.12.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activemq-openwire-legacy-5.12.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activemq-spring-5.12.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activemq-spring-5.12.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activemq-web-5.12.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activemq-web-5.12.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/annotations-2.0.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/annotations-2.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/antlr-runtime-3.1.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/antlr-runtime-3.1.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/antlr4-runtime-4.5.1-1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/antlr4-runtime-4.5.1-1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/apache-mime4j-core-0.7.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/apache-mime4j-core-0.7.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/args4j-2.32.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/args4j-2.32.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/asm-5.0.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/asm-5.0.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/asm-all-3.3.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/asm-all-3.3.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/asm-commons-5.0.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/asm-commons-5.0.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/aspectjrt-1.8.7.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/aspectjrt-1.8.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/aspectjweaver-1.8.7.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/aspectjweaver-1.8.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/axiom-api-1.2.17.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/axiom-api-1.2.17.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/axiom-dom-1.2.17.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/axiom-dom-1.2.17.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/axiom-impl-1.2.17.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/axiom-impl-1.2.17.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/axiom-jaxb-1.2.17.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/axiom-jaxb-1.2.17.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/bcel-5.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/bcel-5.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/bcel-findbugs-6.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/bcel-findbugs-6.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/c3p0-0.9.1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/castor-xml-diff-1.4.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/castor-xml-diff-1.4.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cglib-2.2.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cglib-2.2.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-beanutils-1.9.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-beanutils-1.9.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-beanutils-bean-collections-1.8.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-beanutils-bean-collections-1.8.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-cli-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-cli-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-codec-1.10.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-codec-1.10.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-collections-3.2.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-collections-3.2.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-collections4-4.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-collections4-4.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-compress-1.11.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-compress-1.11.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-configuration-1.10.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-configuration-1.10.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-csv-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-csv-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-daemon-1.0.15.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-daemon-1.0.15.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-dbcp-1.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-dbcp2-2.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-dbutils-1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-dbutils-1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-digester-2.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-digester-2.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-digester3-3.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-digester3-3.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-discovery-0.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-discovery-0.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-email-1.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-email-1.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-exec-1.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-exec-1.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-httpclient-3.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-httpclient-3.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-io-2.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-io-2.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-jci-core-1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-jci-core-1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-jexl-2.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-jexl-2.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-lang-2.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-lang-2.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-lang3-3.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-lang3-3.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-logging-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-logging-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-math-2.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-math-2.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-math3-3.6.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-math3-3.6.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-modeler-2.0.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-modeler-2.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-net-3.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-net-3.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-pool-1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-pool-1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-primitives-1.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-primitives-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-proxy-1.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-proxy-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-skin-4.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-skin-4.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-validator-1.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-validator-1.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-vfs2-2.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-vfs2-2.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-weaver-privilizer-api-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-weaver-privilizer-api-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/core-renderer-R8.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/core-renderer-R8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cryptacular-1.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cryptacular-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cssparser-0.9.18.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cssparser-0.9.18.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-core-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-core-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-integration-jca-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-integration-jca-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-manifest.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-manifest.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-bindings-coloc-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-bindings-coloc-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-bindings-corba-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-bindings-corba-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-bindings-object-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-bindings-object-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-bindings-soap-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-bindings-soap-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-bindings-xml-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-bindings-xml-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-databinding-aegis-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-databinding-aegis-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-databinding-jaxb-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-databinding-jaxb-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-databinding-jibx-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-databinding-jibx-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-databinding-sdo-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-databinding-sdo-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-databinding-xmlbeans-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-databinding-xmlbeans-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-features-clustering-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-features-clustering-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-frontend-jaxrs-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-frontend-jaxrs-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-frontend-jaxws-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-frontend-jaxws-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-frontend-js-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-frontend-js-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-frontend-simple-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-frontend-simple-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-javascript-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-javascript-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-management-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-management-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-client-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-client-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-extension-providers-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-extension-providers-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-extension-search-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-extension-search-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-json-basic-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-json-basic-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-cors-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-cors-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-jose-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-jose-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-jose-jaxrs-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-jose-jaxrs-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-oauth-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-oauth-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-oauth2-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-oauth2-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-sso-saml-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-sso-saml-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-xml-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-security-xml-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-service-description-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-rs-service-description-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-security-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-security-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-security-saml-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-security-saml-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-hc-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-hc-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-jetty-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-jetty-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-netty-client-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-netty-client-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-netty-server-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-http-netty-server-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-jms-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-jms-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-local-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-local-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-udp-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-transports-udp-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-ws-addr-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-ws-addr-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-ws-mex-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-ws-mex-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-ws-policy-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-ws-policy-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-ws-rm-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-ws-rm-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-ws-security-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-ws-security-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-wsdl-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-rt-wsdl-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-services-sts-core-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-services-sts-core-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-services-ws-discovery-api-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-services-ws-discovery-api-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-services-ws-discovery-service-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-services-ws-discovery-service-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-services-wsn-api-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-services-wsn-api-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-services-wsn-core-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-services-wsn-core-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-common-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-common-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-corba-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-corba-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-java2ws-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-java2ws-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-misctools-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-misctools-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-validator-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-validator-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-wadlto-jaxrs-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-wadlto-jaxrs-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-wsdlto-core-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-wsdlto-core-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-wsdlto-databinding-jaxb-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-wsdlto-databinding-jaxb-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-wsdlto-frontend-javascript-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-wsdlto-frontend-javascript-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-wsdlto-frontend-jaxws-3.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-tools-wsdlto-frontend-jaxws-3.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-boolean-3.0.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-boolean-3.0.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-bug671-3.0.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-bug671-3.0.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-dv-3.0.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-dv-3.0.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-javadoc-3.0.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-javadoc-3.0.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-runtime-3.0.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-runtime-3.0.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-ts-3.0.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/cxf-xjc-ts-3.0.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/derbytools-10.5.3.0_1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/derbytools-10.5.3.0_1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/diffutils-1.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/diffutils-1.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ehcache-2.10.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ehcache-2.10.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/esapi-2.0GA.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/esapi-2.0GA.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/fontbox-2.0.0-RC3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/fontbox-2.0.0-RC3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/fontbox-2.0.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/fontbox-2.0.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-annotation_1.0_spec-1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-annotation_1.0_spec-1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-jaxws_2.2_spec-1.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-jaxws_2.2_spec-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-saaj_1.3_spec-1.0.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-saaj_1.3_spec-1.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-servlet_3.0_spec-1.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-servlet_3.0_spec-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-ws-metadata_2.0_spec-1.1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-ws-metadata_2.0_spec-1.1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/gmbal-api-only-3.1.0-b001.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/gmbal-api-only-3.1.0-b001.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/gson-2.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/gson-2.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/guava-18.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/guava-18.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/h2-1.4.192.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/h2-1.4.192.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ha-api-3.1.8.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ha-api-3.1.8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hamcrest-all-1.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hamcrest-all-1.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hawtbuf-1.11.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hawtbuf-1.11.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hessian-3.1.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hessian-3.1.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-c3p0-5.0.6.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-c3p0-5.0.6.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-core-5.0.6.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-core-5.0.6.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-ehcache-5.0.6.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-ehcache-5.0.6.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-entitymanager-5.0.6.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-entitymanager-5.0.6.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-envers-5.0.6.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-envers-5.0.6.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-osgi-5.0.6.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-osgi-5.0.6.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-proxool-5.0.6.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-proxool-5.0.6.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-5.5.2.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-5.5.2.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-backend-jgroups-5.5.2.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-backend-jgroups-5.5.2.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-backend-jms-5.5.2.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-backend-jms-5.5.2.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-engine-5.5.2.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-engine-5.5.2.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-orm-5.5.2.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-orm-5.5.2.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-serialization-avro-5.5.2.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-search-serialization-avro-5.5.2.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-testing-5.0.6.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/hibernate-testing-5.0.6.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/htmlunit-2.19-OSGi.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/htmlunit-2.19-OSGi.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/htmlunit-2.19.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/htmlunit-2.19.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/htmlunit-core-js-2.17.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/htmlunit-core-js-2.17.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpasyncclient-4.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpasyncclient-4.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpclient-4.5.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpclient-4.5.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpcore-4.4.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpcore-4.4.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpcore-nio-4.4.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpcore-nio-4.4.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpmime-4.5.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/httpmime-4.5.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/icu4j-54.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/icu4j-54.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/istack-commons-runtime-2.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/istack-commons-runtime-2.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/itext-4.2.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/itext-4.2.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-annotations-2.6.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-annotations-2.6.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-core-2.6.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-core-2.6.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-databind-2.6.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-databind-2.6.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-jaxrs-1.9.13.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-jaxrs-1.9.13.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-jaxrs-json-provider-2.7.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jackson-jaxrs-json-provider-2.7.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jakarta-regexp-1.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jakarta-regexp-1.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jalopy-1.5rc3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jalopy-1.5rc3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jasperreports-6.3.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jasperreports-6.3.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jasperreports-fonts-6.3.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jasperreports-fonts-6.3.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jasperreports-javaflow-6.3.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jasperreports-javaflow-6.3.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jasypt-1.9.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jasypt-1.9.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/java-object-diff-0.93.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/java-object-diff-0.93.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/java-support-7.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/java-support-7.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/java-wkhtmltopdf-wrapper-0.0.3-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/java-wkhtmltopdf-wrapper-0.0.3-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.annotation-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.annotation-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.annotation-api-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.annotation-api-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.persistence-2.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.persistence-2.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxb-api-2.2.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxb-api-2.2.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxb-core-2.2.11.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxb-core-2.2.11.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxb-impl-2.2.11.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxb-impl-2.2.11.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxb-xjc-2.2.11.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxb-xjc-2.2.11.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxen-1.1.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxen-1.1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxws-rt-2.2.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxws-rt-2.2.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxws-tools-2.2.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jaxws-tools-2.2.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-annotations-api_1.1_spec-1.0.1.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-annotations-api_1.1_spec-1.0.1.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-el-api_2.2_spec-1.0.4.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-el-api_2.2_spec-1.0.4.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.1.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.1.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jcl-over-slf4j-1.7.19.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jcl-over-slf4j-1.7.19.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jcommon-1.0.23.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jcommon-1.0.23.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jcommon-xml-1.0.23.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jcommon-xml-1.0.23.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jedis-2.9.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jedis-2.9.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jettison-1.3.7.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jettison-1.3.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-continuation-9.2.15.v20160210.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-continuation-9.2.15.v20160210.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-http-9.2.15.v20160210.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-http-9.2.15.v20160210.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-io-9.2.15.v20160210.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-io-9.2.15.v20160210.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-security-9.2.15.v20160210.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-security-9.2.15.v20160210.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-server-9.2.15.v20160210.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-server-9.2.15.v20160210.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-util-9.2.15.v20160210.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jetty-util-9.2.15.v20160210.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jfreechart-1.0.19-experimental.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jfreechart-1.0.19-experimental.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jfreechart-1.0.19-swt.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jfreechart-1.0.19-swt.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jfreechart-1.0.19.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jfreechart-1.0.19.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jfreesvg-2.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jfreesvg-2.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jgroups-3.6.6.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jgroups-3.6.6.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jibx-bind-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jibx-bind-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jibx-run-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jibx-run-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/joda-time-2.7.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/joda-time-2.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/js-1.7R2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/js-1.7R2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jsch-0.1.53.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jsch-0.1.53.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jsoup-1.7.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jsoup-1.7.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jsr311-api-1.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jsr311-api-1.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/juli-6.0.16.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/juli-6.0.16.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/log4j-1.2.17.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/log4j-1.2.17.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-3.6.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-3.6.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-common-5.3.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-common-5.3.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-common-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-common-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-icu-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-icu-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-kuromoji-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-kuromoji-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-smartcn-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-analyzers-smartcn-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-backward-codecs-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-backward-codecs-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-codecs-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-codecs-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-core-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-core-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-expressions-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-expressions-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-facet-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-facet-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-fast-vector-highlighter-3.0.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-fast-vector-highlighter-3.0.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-grouping-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-grouping-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-highlighter-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-highlighter-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-icu-3.6.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-icu-3.6.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-instantiated-3.6.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-instantiated-3.6.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-join-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-join-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-kuromoji-3.6.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-kuromoji-3.6.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-memory-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-memory-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-misc-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-misc-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-queries-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-queries-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-queryparser-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-queryparser-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-regex-3.0.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-regex-3.0.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-sandbox-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-sandbox-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-smartcn-3.6.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-smartcn-3.6.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-spatial-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-spatial-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-suggest-5.5.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-suggest-5.5.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-xml-query-parser-3.6.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/lucene-xml-query-parser-3.6.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mail-1.4.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mail-1.4.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/management-api-3.0.0-b012.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/management-api-3.0.0-b012.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mex-1.7.1-impl.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mex-1.7.1-impl.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mimepull-1.8.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mimepull-1.8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mina-core-2.0.9.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mina-core-2.0.9.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mybatis-3.4.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mybatis-3.4.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/neethi-3.0.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/neethi-3.0.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/nekohtml-1.9.22.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/nekohtml-1.9.22.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/netty-3.3.0.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/netty-3.3.0.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/netty-all-4.0.33.Final.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/netty-all-4.0.33.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/oauth-20100527.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/oauth-20100527.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/oauth-consumer-20100601.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/oauth-consumer-20100601.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/oauth-provider-20100527.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/oauth-provider-20100527.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-agents-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-agents-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-axis2-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-axis2-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-api-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-api-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-compiler-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-compiler-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-connector-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-connector-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-dao-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-dao-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-epr-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-epr-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-obj-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-obj-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-ql-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-ql-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-runtime-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-runtime-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-schemas-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-schemas-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-store-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-bpel-store-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-dao-hibernate-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-dao-hibernate-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-dao-jpa-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-dao-jpa-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-jacob-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-jacob-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-jca-ra-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-jca-ra-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-jca-server-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-jca-server-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-scheduler-simple-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-scheduler-simple-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-tools.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-tools.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-utils-1.3.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/ode-utils-1.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/openjpa-1.2.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/openjpa-1.2.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-2.5.1-1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-2.5.1-1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-core-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-core-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-profile-api-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-profile-api-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-saml-api-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-saml-api-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-saml-impl-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-saml-impl-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-security-api-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-security-api-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-security-impl-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-security-impl-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-soap-api-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-soap-api-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xacml-api-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xacml-api-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xacml-impl-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xacml-impl-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xacml-saml-api-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xacml-saml-api-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xacml-saml-impl-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xacml-saml-impl-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xmlsec-api-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xmlsec-api-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xmlsec-impl-3.1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/opensaml-xmlsec-impl-3.1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/openws-1.4.2-1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/openws-1.4.2-1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/org.eclipse.jgit-4.1.1.201511131810-r.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/org.eclipse.jgit-4.1.1.201511131810-r.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/org.eclipse.jgit.archive-4.1.1.201511131810-r.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/org.eclipse.jgit.archive-4.1.1.201511131810-r.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/org.eclipse.jgit.http.server-4.1.1.201511131810-r.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/org.eclipse.jgit.http.server-4.1.1.201511131810-r.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/org.eclipse.jgit.pgm-4.1.1.201511131810-r.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/org.eclipse.jgit.pgm-4.1.1.201511131810-r.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/paranamer-2.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/paranamer-2.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/pdfbox-2.0.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/pdfbox-2.0.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/pdfbox-app-2.0.0-RC3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/pdfbox-app-2.0.0-RC3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/pdfbox-tools-2.0.0-RC3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/pdfbox-tools-2.0.0-RC3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/pdfbox-tools-2.0.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/pdfbox-tools-2.0.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/pegdown-1.6.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/pegdown-1.6.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/persistence-api-1.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/persistence-api-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/plantuml-jar-asl-8046.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/plantuml-jar-asl-8046.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/plantuml-server-8046.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/plantuml-server-8046.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-3.13-20150929.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-3.13-20150929.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-excelant-3.13-20150929.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-excelant-3.13-20150929.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-ooxml-3.13-20150929.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-ooxml-3.13-20150929.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-ooxml-schemas-3.13-20150929.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-ooxml-schemas-3.13-20150929.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-scratchpad-3.13-20150929.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/poi-scratchpad-3.13-20150929.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/policy-2.3.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/policy-2.3.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/preflight-2.0.0-RC3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/preflight-2.0.0-RC3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/preflight-2.0.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/preflight-2.0.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/preflight-app-2.0.0-RC3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/preflight-app-2.0.0-RC3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/rampart-core-1.7.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/rampart-core-1.7.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/rampart-policy-1.7.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/rampart-policy-1.7.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/rampart-trust-1.7.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/rampart-trust-1.7.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/regexp-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/regexp-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/relaxngDatatype-20020414.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/relaxngDatatype-20020414.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/sac-1.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/sac-1.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/saxon-9.1.0.8-dom.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/saxon-9.1.0.8-dom.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/saxon-9.1.0.8-xpath.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/saxon-9.1.0.8-xpath.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/saxon-9.1.0.8-xqj.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/saxon-9.1.0.8-xqj.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/saxon-9.1.0.8.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/saxon-9.1.0.8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/serializer-2.7.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/serializer-2.7.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/serp-1.13.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/serp-1.13.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/shiro-all-1.2.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/shiro-all-1.2.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/shiro-freemarker-tags-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/shiro-freemarker-tags-0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/slf4j-api-1.7.19.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/slf4j-api-1.7.19.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-aop-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-aop-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-beans-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-beans-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-context-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-context-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-core-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-core-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-data-commons-1.12.2.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-data-commons-1.12.2.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-data-jpa-1.10.2.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-data-jpa-1.10.2.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-data-redis-1.6.2.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-data-redis-1.6.2.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-expression-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-expression-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-jdbc-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-jdbc-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-jms-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-jms-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-messaging-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-messaging-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-messaging-4.3.0.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-messaging-4.3.0.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-orm-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-orm-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-oxm-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-oxm-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-remoting-2.0.8.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-remoting-2.0.8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-acl-4.0.4.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-acl-4.0.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-config-4.0.4.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-config-4.0.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-core-4.0.4.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-core-4.0.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-crypto-4.0.4.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-crypto-4.0.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-oauth2-2.0.8.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-oauth2-2.0.8.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-taglibs-4.0.4.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-taglibs-4.0.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-web-4.0.4.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-security-web-4.0.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-session-1.0.2.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-session-1.0.2.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-test-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-test-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-tx-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-tx-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-web-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-web-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-webmvc-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-webmvc-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-websocket-4.2.6.RELEASE.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/spring-websocket-4.2.6.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/stax-api-1.0.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/stax-api-1.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/stax-ex-1.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/stax-ex-1.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/stax2-api-3.1.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/stax2-api-3.1.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/streambuffer-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/streambuffer-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/swtgraphics2d.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/swtgraphics2d.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/tika-core-1.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/tika-core-1.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/tika-parsers-1.4.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/tika-parsers-1.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/tranql-connector-1.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/tranql-connector-1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/tribes-6.0.16.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/tribes-6.0.16.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/txw2-20110809.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/txw2-20110809.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/vault-diff-3.1.26.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/vault-diff-3.1.26.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/velocity-1.7.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/velocity-1.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/websocket-api-9.2.13.v20150730.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/websocket-api-9.2.13.v20150730.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/websocket-client-9.2.13.v20150730.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/websocket-client-9.2.13.v20150730.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/websocket-common-9.2.13.v20150730.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/websocket-common-9.2.13.v20150730.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/woden-api-1.0M9.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/woden-api-1.0M9.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/woden-core-1.0M10.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/woden-core-1.0M10.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/woden-impl-commons-1.0M9.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/woden-impl-commons-1.0M9.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/woden-impl-dom-1.0M9.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/woden-impl-dom-1.0M9.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/woodstox-core-asl-4.4.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/woodstox-core-asl-4.4.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wsdl4j-1.6.3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wsdl4j-1.6.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-1.6.16.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-1.6.16.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-bindings-2.1.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-bindings-2.1.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-policy-2.1.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-policy-2.1.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-ws-security-common-2.1.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-ws-security-common-2.1.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-ws-security-dom-2.1.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-ws-security-dom-2.1.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-ws-security-policy-stax-2.1.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-ws-security-policy-stax-2.1.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-ws-security-stax-2.1.5.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/wss4j-ws-security-stax-2.1.5.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xalan-2.7.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xalan-2.7.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xercesImpl-2.11.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xercesImpl-2.11.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xml-apis-1.4.01.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xml-apis-1.4.01.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xml-apis-ext-1.3.04.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xml-apis-ext-1.3.04.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xml-resolver-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xml-resolver-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlbeans-2.6.0.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlbeans-2.6.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlgraphics-commons-1.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlgraphics-commons-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlpull-1.1.3.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlpull-1.1.3.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlschema-core-2.2.1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlschema-core-2.2.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlsec-2.0.6.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmlsec-2.0.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmltooling-1.3.2-1.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmltooling-1.3.2-1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmpbox-2.0.0-RC3.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmpbox-2.0.0-RC3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmpbox-2.0.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xmpbox-2.0.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xstream-1.4.9.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/xstream-1.4.9.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/yuicompressor-2.4.2.jar" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/yuicompressor-2.4.2.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-annotation_1.0_spec-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-javamail_1.4_spec-1.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-jaxws_2.2_spec-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-jms_1.1_spec-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-saaj_1.3_spec-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-servlet_3.0_spec-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-ws-metadata_2.0_spec-1.1.2.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyActiviti.iml" afterPath="$PROJECT_DIR$/MyActiviti.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/atomikos/icatch/imp/CoordinatorImp.java" afterPath="$PROJECT_DIR$/src/main/java/com/atomikos/icatch/imp/CoordinatorImp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/activiti/explorer/conf/ActivitiEngineConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/org/activiti/explorer/conf/ActivitiEngineConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/activiti/explorer/conf/ApplicationConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/org/activiti/explorer/conf/ApplicationConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/activiti/explorer/conf/DemoDataConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/org/activiti/explorer/conf/DemoDataConfiguration.java" />
@@ -481,31 +33,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/activiti/rest/servlet/DispatcherServletConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/org/activiti/rest/servlet/DispatcherServletConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/activiti/rest/servlet/WebConfigurer.java" afterPath="$PROJECT_DIR$/src/main/java/org/activiti/rest/servlet/WebConfigurer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/properties/engine.properties" afterPath="$PROJECT_DIR$/src/main/resources/config/properties/engine.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/properties/quartz.properties" afterPath="$PROJECT_DIR$/src/main/resources/config/properties/quartz.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/properties/ui.properties" afterPath="$PROJECT_DIR$/src/main/resources/config/properties/ui.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/properties/validatemessages.properties" afterPath="$PROJECT_DIR$/src/main/resources/config/properties/validatemessages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_demo.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_demo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_aop.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_aop.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_common.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_common.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_freemarker.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_freemarker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_pojo.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_pojo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_utils.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_utils.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/ehcache/spring_ehcache.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/ehcache/spring_ehcache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_aop.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_aop.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_transaction.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate_transaction.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_sessionfactory.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_sessionfactory.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful_config.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful_config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/diagram-viewer/js/ProcessDiagramCanvas.js" afterPath="$PROJECT_DIR$/src/main/webapp/diagram-viewer/js/ProcessDiagramCanvas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/diagram-viewer/js/ProcessDiagramGenerator.js" afterPath="$PROJECT_DIR$/src/main/webapp/diagram-viewer/js/ProcessDiagramGenerator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/editor-app/app-cfg.js" afterPath="$PROJECT_DIR$/src/main/webapp/editor-app/app-cfg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="MyActiviti.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -536,101 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring_restful_config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful_config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3060">
-              <caret line="216" column="11" selection-start-line="216" selection-start-column="11" selection-end-line="216" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring_activiti_demo.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_demo.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/ui.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resource.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/resource.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quartz.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/quartz.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hessian.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/hessian.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="engine.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/engine.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validatemessages.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/validatemessages.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-374">
+              <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="121" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -663,13 +102,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_common.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/ehcache.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config/spring/hibernate/spring_hibernate.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful_config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_demo.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/activiti/explorer/servlet/WebConfigurer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -697,7 +137,7 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-58" />
+    <option name="x" value="-16" />
     <option name="y" value="23" />
     <option name="width" value="1392" />
     <option name="height" value="740" />
@@ -745,85 +185,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyActiviti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyActiviti" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -838,72 +214,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activiti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyActiviti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -917,7 +227,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/yuicompressor-2.4.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../apache/apache-tomcat-8.0.26/lib/servlet-api.jar!/" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -931,11 +241,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources/i18n" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/activiti" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/resources/activiti" />
       <recent name="$PROJECT_DIR$/src/main/resources/config/spring/springmvc" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat">
@@ -1411,15 +721,15 @@
       <updated>1471512195378</updated>
       <workItem from="1471512200292" duration="6226000" />
       <workItem from="1471523875605" duration="306000" />
-      <workItem from="1471916500783" duration="19569000" />
+      <workItem from="1471916500783" duration="22290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26101000" />
+    <option name="totallyTimeSpent" value="28822000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-58" y="23" width="1392" height="740" extended-state="0" />
+    <frame x="-16" y="23" width="1392" height="740" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1435,7 +745,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47685185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4814815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35339507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1446,10 +756,10 @@
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29037037" sideWeight="0.8788599" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29037037" sideWeight="0.8788599" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37777779" sideWeight="0.121140145" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1507,83 +817,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1e723b2-f74c-4c19-8c1f-bc9a117c34b5/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/servlet/JsonpCallbackFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/restful/spring_restful_config.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/servlet/WebConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/rest/servlet/WebConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/rest/conf/ApplicationConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/beans/spring_beans_utils.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="83" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1e723b2-f74c-4c19-8c1f-bc9a117c34b5/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/properties/dbcp.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1712,14 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/VAADIN/widgetsets/org.activiti.explorer.CustomWidgetset/DE709C1CAB0F65BCC5BEF11EDA73A925.cache.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1791,14 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activiti-explorer-5.20.0.jar!/org/activiti/explorer/servlet/ExplorerApplicationServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-144">
@@ -1807,26 +1024,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/springmvc/spring_restful_config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3060">
           <caret line="216" column="11" selection-start-line="216" selection-start-column="11" selection-end-line="216" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
           <folding />
         </state>
       </provider>
@@ -1903,6 +1104,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/conf/ActivitiEngineConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-999">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/conf/ApplicationConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/conf/DemoDataConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13088#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8378#11642#0" expanded="false" />
+            <element signature="e#9494#9510#0" expanded="false" />
+            <element signature="e#11641#11642#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/conf/JacksonConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/servlet/DispatcherServletConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/servlet/JsonpCallbackFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/geronimo-servlet_3.0_spec-1.0.jar!/javax/servlet/ServletContextListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../apache/apache-tomcat-8.0.26/lib/servlet-api.jar!/javax/servlet/ServletContextListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/servlet/WebConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/activiti/spring_activiti_config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="39" column="75" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/servlet/GenericResponseWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/activiti/explorer/servlet/FilterServletOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="121" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1934,11 +1263,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>actioncable (v5.0.0, RVM: ruby-2.3.0 [global]) [gem]</last-edited>
+          <last-edited>jsp-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28234085" />
               </list>
             </option>
           </splitter-proportions>
@@ -1950,7 +1279,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28234085" />
               </list>
             </option>
           </splitter-proportions>
@@ -1963,6 +1292,7 @@
             <option name="proportions">
               <list>
                 <option value="0.28234085" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
