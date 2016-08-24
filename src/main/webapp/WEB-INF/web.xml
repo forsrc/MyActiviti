@@ -275,7 +275,7 @@
 
     <filter-mapping>
         <filter-name>JSONPFilter</filter-name>
-        <url-pattern>/service/*</url-pattern>
+        <url-pattern>/activiti-explorer/service/*</url-pattern>
     </filter-mapping>
 
     <servlet>
@@ -318,7 +318,7 @@
 
     <servlet-mapping>
         <servlet-name>activiti</servlet-name>
-        <url-pattern>/service/*</url-pattern>
+        <url-pattern>/activiti-explorer/service/*</url-pattern>
     </servlet-mapping>
 
 
