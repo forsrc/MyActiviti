@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
   <data-source name="H2 - jdbc:h2:/db/myactiviti.h2/myactiviti;AUTO_SERVER=TRUE;MVCC=TRUE;LOCK_TIMEOUT=3600000;DB_CLOSE_DELAY=-1;ACCESS_MODE_DATA=rws;AUTO_RECONNECT=TRUE;CACHE_SIZE=10240;PAGE_SIZE=1024;" uuid="b1e723b2-f74c-4c19-8c1f-bc9a117c34b5">
-    <database-info product="H2" version="1.3.176 (2014-04-05)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.3.176 (2014-04-05)">
-      <identifier-quote-string>&quot;</identifier-quote-string>
-    </database-info>
-    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
     <schema name="INFORMATION_SCHEMA" catalog="MYACTIVITI"/>
     <schema name="PUBLIC" catalog="MYACTIVITI"/>
     <table name="CATALOGS" schema="INFORMATION_SCHEMA" catalog="MYACTIVITI" type="TABLE">

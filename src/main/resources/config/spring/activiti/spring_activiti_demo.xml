@@ -117,6 +117,8 @@
     <bean name="workflowDefinitionConversionFactory"
           class="org.activiti.workflow.simple.converter.WorkflowDefinitionConversionFactory"/>
 
+    <bean name="demoDataConfiguration" class="org.activiti.explorer.conf.DemoDataConfiguration"/>
+
 </beans>
 
 

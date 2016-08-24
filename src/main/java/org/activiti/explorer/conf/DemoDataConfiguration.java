@@ -301,26 +301,26 @@ public class DemoDataConfiguration {
   
   protected void createModelData(String name, String description, String jsonFile) {
     List<Model> modelList = repositoryService.createModelQuery().modelName("Demo model").list();
-    
+
     if (modelList == null || modelList.isEmpty()) {
-    
+
       Model model = repositoryService.newModel();
       model.setName(name);
-      
+
       ObjectNode modelObjectNode = new ObjectMapper().createObjectNode();
       modelObjectNode.put("name", name);
       modelObjectNode.put("description", description);
       model.setMetaInfo(modelObjectNode.toString());
-      
+
       repositoryService.saveModel(model);
-      
+
       try {
         InputStream svgStream = this.getClass().getClassLoader().getResourceAsStream("org/activiti/explorer/demo/model/test.svg");
         repositoryService.addModelEditorSourceExtra(model.getId(), IOUtils.toByteArray(svgStream));
       } catch(Exception e) {
         LOGGER.warn("Failed to read SVG", e);
       }
-      
+
       try {
         InputStream editorJsonStream = this.getClass().getClassLoader().getResourceAsStream(jsonFile);
         repositoryService.addModelEditorSource(model.getId(), IOUtils.toByteArray(editorJsonStream));

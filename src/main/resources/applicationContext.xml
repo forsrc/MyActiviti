@@ -18,7 +18,7 @@
     </bean>
 
     <context:component-scan base-package="com.forsrc"/>
-    <!--<context:component-scan base-package="org.activiti"/>-->
+    <context:component-scan base-package="org.activiti"/>
 
     <!--<context:component-scan base-package="com.forsrc.springmvc"/>
     <context:component-scan base-package="com.forsrc.cxf"/>
