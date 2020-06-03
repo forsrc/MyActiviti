@@ -21,5 +21,8 @@ spring:
     - classpath:db/activiti.h2.*.sql
   security:
     user:
-      name:     forsrc
-      password: forsrc
+      name:      forsrc
+      password:  forsrc
+
+security:
+  enable-csrf: false
