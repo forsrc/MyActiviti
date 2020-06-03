@@ -1,0 +1,25 @@
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update   # first：create table ，next :update table
+    database: MySQL
+    show-sql: true
+  activiti:
+    check-process-definitions: false
+  datasource:
+    url:                 ${DB_URL:jdbc:h2:D:/temp/db/h2/my-activiti.h2;AUTO_SERVER=TRUE;MODE=MYSQL;}
+    username:            ${DB_USERNAME:sa}
+    password:            ${DB_PASSWORD:sa}
+    driver-class-name:   ${DB_DRIVER:org.h2.Driver}
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    testWhileIdle: true
+    data:
+    - classpath:db/activiti.h2.*.sql
+  security:
+    user:
+      name:     forsrc
+      password: forsrc
